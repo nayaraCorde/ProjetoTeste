@@ -17,3 +17,24 @@ Este projeto foi criado com foco em estudo, prática e demonstração de boas pr
 
 ## 📂 Estrutura do Projeto
 
+/src
+└── /test
+└── /java
+└── App.java # Classe de testes
+/driver # Pasta contendo o chromedriver.exe
+pom.xml # Dependências Maven
+README.md # Documentação do projeto
+
+---
+
+## 🧩 Funcionalidade dos Testes
+
+Os testes demonstram:
+
+- Inicialização do navegador Chrome controlado por WebDriver
+- Acesso a uma página da web
+- Localização de elementos usando locators (By.name, By.id, By.cssSelector, etc.)
+- Inserção de texto e ações do usuário (sendKeys, click)
+- Organização e execução com JUnit
+
+---
